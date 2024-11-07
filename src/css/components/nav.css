@@ -1,0 +1,19 @@
+@import url('./../variables.css');
+
+.page-header__nav{
+  background-color: var(--nav-bar-bg-color);
+  border-radius: 0px 0px 25px 25px;
+  width: 420px;
+  margin: 0 auto;
+}
+
+.site-menu{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 78px;
+}
