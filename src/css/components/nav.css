@@ -1,13 +1,13 @@
 @import url('./../variables.css');
 
-.page-header__nav{
+.page-header__nav {
   background-color: var(--nav-bar-bg-color);
   border-radius: 0px 0px 25px 25px;
   width: 420px;
   margin: 0 auto;
 }
 
-.site-menu{
+.site-menu {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -15,5 +15,33 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap: 78px;
+}
+
+.site-menu__item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.site-menu__item:first-child {
+  border-radius: 0px 0px 0px 25px;
+}
+
+.site-menu__item:last-child {
+  border-radius: 0px 0px 25px 0px;
+}
+
+.site-menu__item:hover {
+  background-color: var(--nav-bar-bg-color-active);
+}
+
+.site-menu__item--active{
+  background-color: var(--nav-bar-bg-color-active);
+}
+
+.site-menu__link {
+  width: 100%;
 }
