@@ -1,0 +1,7 @@
+@import url('./../variables.css');
+
+.panel{
+  display: flex;
+  border-radius: 25px;
+  background-color: var(--panel-bg-color);
+}
