@@ -1,7 +1,53 @@
 @import url('./../variables.css');
 
-.panel{
+.panel {
   display: flex;
+  flex-direction: column;
+  margin: 25% 260px 25% 260px;
+  align-items: center;
   border-radius: 25px;
   background-color: var(--panel-bg-color);
+  padding: 104px 108px 16px;
+}
+
+.panel__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.panel-info__stopwatch {
+  margin-bottom: 48px;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0.06em;
+  font-variant: all-small-caps;
+}
+
+.panel-info__buttons {
+  display: grid;
+  gap: 16px 2px;
+  grid-template-columns: 200px 200px;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 32px;
+
+  border-radius: 20px;
+  border: none;
+
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.btn:not(.btn-end) {
+  background-color: var(--main-bg-color);
+
+}
+
+.btn-end {
+  grid-column: 1 / -1;
+  background-color: var(--btn-end);
 }
