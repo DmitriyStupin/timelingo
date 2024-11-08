@@ -40,6 +40,8 @@
 
   color: #ffffff;
   text-transform: uppercase;
+
+  cursor: pointer;
 }
 
 .btn:not(.btn-end) {
