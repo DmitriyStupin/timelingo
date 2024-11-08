@@ -3,7 +3,7 @@
 .panel {
   display: flex;
   flex-direction: column;
-  margin: 25% 260px 25% 260px;
+  margin: 20% 260px 25% 260px;
   align-items: center;
   border-radius: 25px;
   background-color: var(--panel-bg-color);
