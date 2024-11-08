@@ -7,7 +7,7 @@
   align-items: center;
   border-radius: 25px;
   background-color: var(--panel-bg-color);
-  padding: 104px 108px 16px;
+  padding: 104px 0 16px 0;
 }
 
 .panel__info {
@@ -21,7 +21,7 @@
   font-weight: 700;
   font-size: 96px;
   line-height: 100%;
-  letter-spacing: 0.06em;
+  letter-spacing: 6px;
   font-variant: all-small-caps;
 }
 
@@ -32,6 +32,11 @@
 }
 
 .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 0;
+  width: 100%;
   font-weight: 700;
   font-size: 32px;
 
